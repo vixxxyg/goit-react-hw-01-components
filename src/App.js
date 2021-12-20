@@ -1,10 +1,9 @@
-import Profile from './Components/Profile';
-import user from './Components/user.json';
+import Profile from './Components/Profile/Profile';
+import user from './Components/Profile/user.json';
 
 export default function App() {
   return (
     <div>
-      div
       <Profile
         name={user.name}
         tag={user.tag}
