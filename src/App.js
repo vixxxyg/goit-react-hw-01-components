@@ -4,6 +4,7 @@ import user from './Components/user.json';
 export default function App() {
   return (
     <div>
+      div
       <Profile
         name={user.name}
         tag={user.tag}
