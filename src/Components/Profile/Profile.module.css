@@ -1,20 +1,60 @@
 .profile {
+  padding: 15px 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  border-radius: 25px;
+  box-shadow: 1px 1px 5px 5px rgb(101, 101, 102);
 }
 
 .description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
 }
 
 .avatar {
+  width: 350px;
+  display: block;
+  margin: 0 auto;
 }
 
 .name {
+  color: rgb(20, 27, 34);
+  font-size: 25px;
+  font-weight: 900;
 }
 
 .tag {
+  color: rgb(54, 53, 53);
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .location {
+  color: rgb(54, 53, 53);
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.stats > li {
+  color: rgb(54, 53, 53);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.stats > li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.stats span:not(:last-child) {
+  margin-right: 10px;
 }

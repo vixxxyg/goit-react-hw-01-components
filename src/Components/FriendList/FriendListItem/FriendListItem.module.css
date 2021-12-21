@@ -1,0 +1,38 @@
+.statusOnline {
+  background-color: mediumspringgreen;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: block;
+}
+
+.statusOffline {
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: block;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  width: 200px;
+  border-radius: 25px;
+  box-shadow: 1px 1px 5px 5px rgb(101, 101, 102);
+}
+
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 75px;
+  margin: 0 10px;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: 700;
+}
